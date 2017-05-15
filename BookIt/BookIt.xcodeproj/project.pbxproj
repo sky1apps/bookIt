@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB80F6481EC8D77A009C1561 /* FHDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80F6471EC8D77A009C1561 /* FHDataController.swift */; };
+		CB80F64A1EC8F868009C1561 /* reservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80F6491EC8F868009C1561 /* reservationTableViewCell.swift */; };
+		CB80F6641ECA2ADC009C1561 /* appLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80F65B1ECA2ADC009C1561 /* appLogo.png */; };
+		CB80F6651ECA2ADC009C1561 /* deleteLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80F65C1ECA2ADC009C1561 /* deleteLogo.png */; };
+		CB80F6661ECA2ADC009C1561 /* fulfillLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80F65D1ECA2ADC009C1561 /* fulfillLogo.png */; };
+		CB80F6671ECA2ADC009C1561 /* liveFloorLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80F65E1ECA2ADC009C1561 /* liveFloorLogo.png */; };
+		CB80F6681ECA2ADC009C1561 /* mainLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80F65F1ECA2ADC009C1561 /* mainLogo.png */; };
+		CB80F6691ECA2ADC009C1561 /* reserveLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80F6601ECA2ADC009C1561 /* reserveLogo.png */; };
+		CB80F66B1ECA2ADC009C1561 /* selectDateLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80F6621ECA2ADC009C1561 /* selectDateLogo.png */; };
+		CB80F66C1ECA2ADC009C1561 /* settingsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80F6631ECA2ADC009C1561 /* settingsLogo.png */; };
+		CB80F66E1ECA2BC2009C1561 /* homeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80F66D1ECA2BC2009C1561 /* homeLogo.png */; };
+		CB80F6701ECA2BEF009C1561 /* searchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB80F66F1ECA2BEF009C1561 /* searchLogo.png */; };
+		CB9ECEF81EC3EE77006BA52C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9ECEF71EC3EE77006BA52C /* AppDelegate.swift */; };
+		CB9ECEFA1EC3EE77006BA52C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9ECEF91EC3EE77006BA52C /* FirstViewController.swift */; };
+		CB9ECEFC1EC3EE77006BA52C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9ECEFB1EC3EE77006BA52C /* SecondViewController.swift */; };
+		CB9ECEFF1EC3EE77006BA52C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9ECEFD1EC3EE77006BA52C /* Main.storyboard */; };
+		CB9ECF011EC3EE77006BA52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9ECF001EC3EE77006BA52C /* Assets.xcassets */; };
+		CB9ECF041EC3EE77006BA52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9ECF021EC3EE77006BA52C /* LaunchScreen.storyboard */; };
+		CB9ECF0F1EC3EE78006BA52C /* BookItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9ECF0E1EC3EE78006BA52C /* BookItTests.swift */; };
+		CB9ECF1A1EC3EE78006BA52C /* BookItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9ECF191EC3EE78006BA52C /* BookItUITests.swift */; };
+		CBAA7FC71EC67B84006C28F8 /* FHCalendarCollectioViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA7FC61EC67B84006C28F8 /* FHCalendarCollectioViewCell.swift */; };
+		CBD31DCD1EC6550F00537889 /* fawziProfilePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD31DCC1EC6550F00537889 /* fawziProfilePhoto.png */; };
+		CBE3D6141EC60F5600DF037E /* RESTAURANT_B.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CBE3D6131EC60F5600DF037E /* RESTAURANT_B.jpeg */; };
+		CBFF1D081EC533670057D0C9 /* RESTAURANT_A.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CBFF1D071EC533670057D0C9 /* RESTAURANT_A.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB9ECF0B1EC3EE78006BA52C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9ECEEC1EC3EE77006BA52C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9ECEF31EC3EE77006BA52C;
+			remoteInfo = BookIt;
+		};
+		CB9ECF161EC3EE78006BA52C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9ECEEC1EC3EE77006BA52C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9ECEF31EC3EE77006BA52C;
+			remoteInfo = BookIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB80F6471EC8D77A009C1561 /* FHDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHDataController.swift; sourceTree = "<group>"; };
+		CB80F6491EC8F868009C1561 /* reservationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reservationTableViewCell.swift; sourceTree = "<group>"; };
+		CB80F65B1ECA2ADC009C1561 /* appLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appLogo.png; sourceTree = "<group>"; };
+		CB80F65C1ECA2ADC009C1561 /* deleteLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteLogo.png; sourceTree = "<group>"; };
+		CB80F65D1ECA2ADC009C1561 /* fulfillLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fulfillLogo.png; sourceTree = "<group>"; };
+		CB80F65E1ECA2ADC009C1561 /* liveFloorLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liveFloorLogo.png; sourceTree = "<group>"; };
+		CB80F65F1ECA2ADC009C1561 /* mainLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainLogo.png; sourceTree = "<group>"; };
+		CB80F6601ECA2ADC009C1561 /* reserveLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reserveLogo.png; sourceTree = "<group>"; };
+		CB80F6621ECA2ADC009C1561 /* selectDateLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectDateLogo.png; sourceTree = "<group>"; };
+		CB80F6631ECA2ADC009C1561 /* settingsLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsLogo.png; sourceTree = "<group>"; };
+		CB80F66D1ECA2BC2009C1561 /* homeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeLogo.png; sourceTree = "<group>"; };
+		CB80F66F1ECA2BEF009C1561 /* searchLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchLogo.png; sourceTree = "<group>"; };
+		CB9ECEF41EC3EE77006BA52C /* BookIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9ECEF71EC3EE77006BA52C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB9ECEF91EC3EE77006BA52C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CB9ECEFB1EC3EE77006BA52C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CB9ECEFE1EC3EE77006BA52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB9ECF001EC3EE77006BA52C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB9ECF031EC3EE77006BA52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB9ECF051EC3EE77006BA52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9ECF0A1EC3EE78006BA52C /* BookItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9ECF0E1EC3EE78006BA52C /* BookItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItTests.swift; sourceTree = "<group>"; };
+		CB9ECF101EC3EE78006BA52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9ECF151EC3EE78006BA52C /* BookItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9ECF191EC3EE78006BA52C /* BookItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItUITests.swift; sourceTree = "<group>"; };
+		CB9ECF1B1EC3EE78006BA52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAA7FC61EC67B84006C28F8 /* FHCalendarCollectioViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHCalendarCollectioViewCell.swift; sourceTree = "<group>"; };
+		CBD31DCC1EC6550F00537889 /* fawziProfilePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fawziProfilePhoto.png; sourceTree = "<group>"; };
+		CBE3D6131EC60F5600DF037E /* RESTAURANT_B.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RESTAURANT_B.jpeg; sourceTree = "<group>"; };
+		CBFF1D071EC533670057D0C9 /* RESTAURANT_A.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RESTAURANT_A.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB9ECEF11EC3EE77006BA52C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9ECF071EC3EE78006BA52C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9ECF121EC3EE78006BA52C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB9ECEEB1EC3EE77006BA52C = {
+			isa = PBXGroup;
+			children = (
+				CB9ECEF61EC3EE77006BA52C /* BookIt */,
+				CB9ECF0D1EC3EE78006BA52C /* BookItTests */,
+				CB9ECF181EC3EE78006BA52C /* BookItUITests */,
+				CB9ECEF51EC3EE77006BA52C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB9ECEF51EC3EE77006BA52C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB9ECEF41EC3EE77006BA52C /* BookIt.app */,
+				CB9ECF0A1EC3EE78006BA52C /* BookItTests.xctest */,
+				CB9ECF151EC3EE78006BA52C /* BookItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9ECEF61EC3EE77006BA52C /* BookIt */ = {
+			isa = PBXGroup;
+			children = (
+				CB9ECEF71EC3EE77006BA52C /* AppDelegate.swift */,
+				CB9ECEF91EC3EE77006BA52C /* FirstViewController.swift */,
+				CB9ECEFB1EC3EE77006BA52C /* SecondViewController.swift */,
+				CB9ECEFD1EC3EE77006BA52C /* Main.storyboard */,
+				CB80F6471EC8D77A009C1561 /* FHDataController.swift */,
+				CB80F6491EC8F868009C1561 /* reservationTableViewCell.swift */,
+				CBAA7FC61EC67B84006C28F8 /* FHCalendarCollectioViewCell.swift */,
+				CB9ECF001EC3EE77006BA52C /* Assets.xcassets */,
+				CBFF1D061EC5334D0057D0C9 /* Images */,
+				CB9ECF021EC3EE77006BA52C /* LaunchScreen.storyboard */,
+				CB9ECF051EC3EE77006BA52C /* Info.plist */,
+			);
+			path = BookIt;
+			sourceTree = "<group>";
+		};
+		CB9ECF0D1EC3EE78006BA52C /* BookItTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB9ECF0E1EC3EE78006BA52C /* BookItTests.swift */,
+				CB9ECF101EC3EE78006BA52C /* Info.plist */,
+			);
+			path = BookItTests;
+			sourceTree = "<group>";
+		};
+		CB9ECF181EC3EE78006BA52C /* BookItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB9ECF191EC3EE78006BA52C /* BookItUITests.swift */,
+				CB9ECF1B1EC3EE78006BA52C /* Info.plist */,
+			);
+			path = BookItUITests;
+			sourceTree = "<group>";
+		};
+		CBFF1D061EC5334D0057D0C9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CB80F66D1ECA2BC2009C1561 /* homeLogo.png */,
+				CB80F65B1ECA2ADC009C1561 /* appLogo.png */,
+				CB80F66F1ECA2BEF009C1561 /* searchLogo.png */,
+				CB80F65C1ECA2ADC009C1561 /* deleteLogo.png */,
+				CB80F65D1ECA2ADC009C1561 /* fulfillLogo.png */,
+				CB80F65E1ECA2ADC009C1561 /* liveFloorLogo.png */,
+				CB80F65F1ECA2ADC009C1561 /* mainLogo.png */,
+				CB80F6601ECA2ADC009C1561 /* reserveLogo.png */,
+				CB80F6621ECA2ADC009C1561 /* selectDateLogo.png */,
+				CB80F6631ECA2ADC009C1561 /* settingsLogo.png */,
+				CBD31DCC1EC6550F00537889 /* fawziProfilePhoto.png */,
+				CBFF1D071EC533670057D0C9 /* RESTAURANT_A.jpeg */,
+				CBE3D6131EC60F5600DF037E /* RESTAURANT_B.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB9ECEF31EC3EE77006BA52C /* BookIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9ECF1E1EC3EE78006BA52C /* Build configuration list for PBXNativeTarget "BookIt" */;
+			buildPhases = (
+				CB9ECEF01EC3EE77006BA52C /* Sources */,
+				CB9ECEF11EC3EE77006BA52C /* Frameworks */,
+				CB9ECEF21EC3EE77006BA52C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookIt;
+			productName = BookIt;
+			productReference = CB9ECEF41EC3EE77006BA52C /* BookIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB9ECF091EC3EE78006BA52C /* BookItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9ECF211EC3EE78006BA52C /* Build configuration list for PBXNativeTarget "BookItTests" */;
+			buildPhases = (
+				CB9ECF061EC3EE78006BA52C /* Sources */,
+				CB9ECF071EC3EE78006BA52C /* Frameworks */,
+				CB9ECF081EC3EE78006BA52C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9ECF0C1EC3EE78006BA52C /* PBXTargetDependency */,
+			);
+			name = BookItTests;
+			productName = BookItTests;
+			productReference = CB9ECF0A1EC3EE78006BA52C /* BookItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB9ECF141EC3EE78006BA52C /* BookItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9ECF241EC3EE78006BA52C /* Build configuration list for PBXNativeTarget "BookItUITests" */;
+			buildPhases = (
+				CB9ECF111EC3EE78006BA52C /* Sources */,
+				CB9ECF121EC3EE78006BA52C /* Frameworks */,
+				CB9ECF131EC3EE78006BA52C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9ECF171EC3EE78006BA52C /* PBXTargetDependency */,
+			);
+			name = BookItUITests;
+			productName = BookItUITests;
+			productReference = CB9ECF151EC3EE78006BA52C /* BookItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB9ECEEC1EC3EE77006BA52C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ARENV;
+				TargetAttributes = {
+					CB9ECEF31EC3EE77006BA52C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W76FFRV8TV;
+						ProvisioningStyle = Automatic;
+					};
+					CB9ECF091EC3EE78006BA52C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W76FFRV8TV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB9ECEF31EC3EE77006BA52C;
+					};
+					CB9ECF141EC3EE78006BA52C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W76FFRV8TV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB9ECEF31EC3EE77006BA52C;
+					};
+				};
+			};
+			buildConfigurationList = CB9ECEEF1EC3EE77006BA52C /* Build configuration list for PBXProject "BookIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB9ECEEB1EC3EE77006BA52C;
+			productRefGroup = CB9ECEF51EC3EE77006BA52C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB9ECEF31EC3EE77006BA52C /* BookIt */,
+				CB9ECF091EC3EE78006BA52C /* BookItTests */,
+				CB9ECF141EC3EE78006BA52C /* BookItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB9ECEF21EC3EE77006BA52C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB80F66B1ECA2ADC009C1561 /* selectDateLogo.png in Resources */,
+				CB80F6661ECA2ADC009C1561 /* fulfillLogo.png in Resources */,
+				CBD31DCD1EC6550F00537889 /* fawziProfilePhoto.png in Resources */,
+				CB80F6681ECA2ADC009C1561 /* mainLogo.png in Resources */,
+				CB80F6691ECA2ADC009C1561 /* reserveLogo.png in Resources */,
+				CB80F6641ECA2ADC009C1561 /* appLogo.png in Resources */,
+				CBE3D6141EC60F5600DF037E /* RESTAURANT_B.jpeg in Resources */,
+				CB80F66C1ECA2ADC009C1561 /* settingsLogo.png in Resources */,
+				CB80F6701ECA2BEF009C1561 /* searchLogo.png in Resources */,
+				CB80F66E1ECA2BC2009C1561 /* homeLogo.png in Resources */,
+				CB9ECF041EC3EE77006BA52C /* LaunchScreen.storyboard in Resources */,
+				CB80F6671ECA2ADC009C1561 /* liveFloorLogo.png in Resources */,
+				CB9ECF011EC3EE77006BA52C /* Assets.xcassets in Resources */,
+				CB80F6651ECA2ADC009C1561 /* deleteLogo.png in Resources */,
+				CBFF1D081EC533670057D0C9 /* RESTAURANT_A.jpeg in Resources */,
+				CB9ECEFF1EC3EE77006BA52C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9ECF081EC3EE78006BA52C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9ECF131EC3EE78006BA52C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9ECEF01EC3EE77006BA52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9ECEFC1EC3EE77006BA52C /* SecondViewController.swift in Sources */,
+				CB80F6481EC8D77A009C1561 /* FHDataController.swift in Sources */,
+				CB9ECEF81EC3EE77006BA52C /* AppDelegate.swift in Sources */,
+				CB9ECEFA1EC3EE77006BA52C /* FirstViewController.swift in Sources */,
+				CB80F64A1EC8F868009C1561 /* reservationTableViewCell.swift in Sources */,
+				CBAA7FC71EC67B84006C28F8 /* FHCalendarCollectioViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9ECF061EC3EE78006BA52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9ECF0F1EC3EE78006BA52C /* BookItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9ECF111EC3EE78006BA52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9ECF1A1EC3EE78006BA52C /* BookItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB9ECF0C1EC3EE78006BA52C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9ECEF31EC3EE77006BA52C /* BookIt */;
+			targetProxy = CB9ECF0B1EC3EE78006BA52C /* PBXContainerItemProxy */;
+		};
+		CB9ECF171EC3EE78006BA52C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9ECEF31EC3EE77006BA52C /* BookIt */;
+			targetProxy = CB9ECF161EC3EE78006BA52C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB9ECEFD1EC3EE77006BA52C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9ECEFE1EC3EE77006BA52C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB9ECF021EC3EE77006BA52C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9ECF031EC3EE77006BA52C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB9ECF1C1EC3EE78006BA52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CB9ECF1D1EC3EE78006BA52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB9ECF1F1EC3EE78006BA52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W76FFRV8TV;
+				INFOPLIST_FILE = BookIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARENV.BookIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB9ECF201EC3EE78006BA52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W76FFRV8TV;
+				INFOPLIST_FILE = BookIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARENV.BookIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CB9ECF221EC3EE78006BA52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W76FFRV8TV;
+				INFOPLIST_FILE = BookItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARENV.BookItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookIt.app/BookIt";
+			};
+			name = Debug;
+		};
+		CB9ECF231EC3EE78006BA52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W76FFRV8TV;
+				INFOPLIST_FILE = BookItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARENV.BookItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookIt.app/BookIt";
+			};
+			name = Release;
+		};
+		CB9ECF251EC3EE78006BA52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W76FFRV8TV;
+				INFOPLIST_FILE = BookItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARENV.BookItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BookIt;
+			};
+			name = Debug;
+		};
+		CB9ECF261EC3EE78006BA52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W76FFRV8TV;
+				INFOPLIST_FILE = BookItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARENV.BookItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BookIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9ECEEF1EC3EE77006BA52C /* Build configuration list for PBXProject "BookIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9ECF1C1EC3EE78006BA52C /* Debug */,
+				CB9ECF1D1EC3EE78006BA52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9ECF1E1EC3EE78006BA52C /* Build configuration list for PBXNativeTarget "BookIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9ECF1F1EC3EE78006BA52C /* Debug */,
+				CB9ECF201EC3EE78006BA52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9ECF211EC3EE78006BA52C /* Build configuration list for PBXNativeTarget "BookItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9ECF221EC3EE78006BA52C /* Debug */,
+				CB9ECF231EC3EE78006BA52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9ECF241EC3EE78006BA52C /* Build configuration list for PBXNativeTarget "BookItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9ECF251EC3EE78006BA52C /* Debug */,
+				CB9ECF261EC3EE78006BA52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB9ECEEC1EC3EE77006BA52C /* Project object */;
+}
